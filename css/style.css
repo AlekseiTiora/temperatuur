@@ -1,0 +1,98 @@
+body{
+    background-color: #efefef;
+}
+.header {
+    background-color: #8d4fee;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule-color: lightblue;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+
+}
+
+.column2 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+}
+.column3 {
+
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+}
+.table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    width: 65%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.table thead tr {
+    background-color: #683ae7;
+    color: #ffffff;
+    text-align: left;
+}
+.table th,
+.table td {
+    padding: 12px 15px;
+}
+.table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.table tbody tr:last-of-type {
+    border-bottom: 2px solid #8d4fee;
+}
+.table tbody tr.active-row {
+    font-weight: bold;
+    color: #8d4fee;
+}
+
+
+
+input[type=text], select {
+
+    padding: 6px 6px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+
+    background-color: #3c3838;
+    color: white;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
